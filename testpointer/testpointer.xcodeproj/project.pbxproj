@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52594C0817C8FD8D00F200B1 /* notmain.c in Sources */ = {isa = PBXBuildFile; fileRef = 52594C0717C8FD8D00F200B1 /* notmain.c */; };
 		52634AE917C65EDF00DE9CA9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 52634AE817C65EDF00DE9CA9 /* main.c */; };
 		52634AEB17C65EDF00DE9CA9 /* testpointer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 52634AEA17C65EDF00DE9CA9 /* testpointer.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		52594C0717C8FD8D00F200B1 /* notmain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = notmain.c; sourceTree = "<group>"; };
+		52594C0917C8FEB400F200B1 /* notmain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = notmain.h; sourceTree = "<group>"; };
 		52634AE517C65EDF00DE9CA9 /* testpointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testpointer; sourceTree = BUILT_PRODUCTS_DIR; };
 		52634AE817C65EDF00DE9CA9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		52634AEA17C65EDF00DE9CA9 /* testpointer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = testpointer.1; sourceTree = "<group>"; };
@@ -60,8 +63,10 @@
 		52634AE717C65EDF00DE9CA9 /* testpointer */ = {
 			isa = PBXGroup;
 			children = (
+				52594C0717C8FD8D00F200B1 /* notmain.c */,
 				52634AE817C65EDF00DE9CA9 /* main.c */,
 				52634AEA17C65EDF00DE9CA9 /* testpointer.1 */,
+				52594C0917C8FEB400F200B1 /* notmain.h */,
 			);
 			path = testpointer;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52634AE917C65EDF00DE9CA9 /* main.c in Sources */,
+				52594C0817C8FD8D00F200B1 /* notmain.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +220,7 @@
 				52634AF017C65EDF00DE9CA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
