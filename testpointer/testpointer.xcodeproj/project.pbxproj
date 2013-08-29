@@ -10,6 +10,8 @@
 		52594C0817C8FD8D00F200B1 /* notmain.c in Sources */ = {isa = PBXBuildFile; fileRef = 52594C0717C8FD8D00F200B1 /* notmain.c */; };
 		52634AE917C65EDF00DE9CA9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 52634AE817C65EDF00DE9CA9 /* main.c */; };
 		52634AEB17C65EDF00DE9CA9 /* testpointer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 52634AEA17C65EDF00DE9CA9 /* testpointer.1 */; };
+		52FDE84917CE50F700C9FBF0 /* arraymain.c in Sources */ = {isa = PBXBuildFile; fileRef = 52FDE84817CE50F700C9FBF0 /* arraymain.c */; };
+		52FDE84C17CE58A300C9FBF0 /* pointermain.c in Sources */ = {isa = PBXBuildFile; fileRef = 52FDE84B17CE58A300C9FBF0 /* pointermain.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		52634AE517C65EDF00DE9CA9 /* testpointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testpointer; sourceTree = BUILT_PRODUCTS_DIR; };
 		52634AE817C65EDF00DE9CA9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		52634AEA17C65EDF00DE9CA9 /* testpointer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = testpointer.1; sourceTree = "<group>"; };
+		52FDE84817CE50F700C9FBF0 /* arraymain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = arraymain.c; sourceTree = "<group>"; };
+		52FDE84A17CE511900C9FBF0 /* arraymain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arraymain.h; sourceTree = "<group>"; };
+		52FDE84B17CE58A300C9FBF0 /* pointermain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pointermain.c; sourceTree = "<group>"; };
+		52FDE84D17CE58B100C9FBF0 /* pointermain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pointermain.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +69,14 @@
 		52634AE717C65EDF00DE9CA9 /* testpointer */ = {
 			isa = PBXGroup;
 			children = (
+				52FDE84B17CE58A300C9FBF0 /* pointermain.c */,
+				52FDE84817CE50F700C9FBF0 /* arraymain.c */,
 				52594C0717C8FD8D00F200B1 /* notmain.c */,
 				52634AE817C65EDF00DE9CA9 /* main.c */,
 				52634AEA17C65EDF00DE9CA9 /* testpointer.1 */,
 				52594C0917C8FEB400F200B1 /* notmain.h */,
+				52FDE84A17CE511900C9FBF0 /* arraymain.h */,
+				52FDE84D17CE58B100C9FBF0 /* pointermain.h */,
 			);
 			path = testpointer;
 			sourceTree = "<group>";
@@ -124,6 +134,8 @@
 			files = (
 				52634AE917C65EDF00DE9CA9 /* main.c in Sources */,
 				52594C0817C8FD8D00F200B1 /* notmain.c in Sources */,
+				52FDE84917CE50F700C9FBF0 /* arraymain.c in Sources */,
+				52FDE84C17CE58A300C9FBF0 /* pointermain.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
